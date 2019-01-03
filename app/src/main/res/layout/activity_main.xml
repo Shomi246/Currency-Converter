@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapplication.tutorialspoint7.example.com.currency_converter.MainActivity">
+
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/e1"
+    android:hint="BDT"
+    android:textSize="40dp"
+    android:layout_marginLeft="130dp"
+    />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:layout_below="@+id/e1"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:id="@+id/r1"
+            android:textSize="40dp"
+
+
+            />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAD"
+            android:id="@+id/r2"
+            android:textSize="40dp"
+            />
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:id="@+id/b1"
+        android:layout_below="@+id/rg"
+        android:textSize="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/t1"
+    android:hint="Results"
+    android:layout_below="@+id/b1"
+    android:textSize="40dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="30dp"
+    />
+
+
+
+
+
+</RelativeLayout>
